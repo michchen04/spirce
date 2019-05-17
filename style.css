@@ -88,6 +88,17 @@ p{
     font-family: Crimson Text;
 }
 
+a{
+    position: relative;
+    text-align: center;
+    width: 70%;
+    margin: 45px auto;
+    font-size:23px;
+    color:blue;
+    font-family: Crimson Text;
+}
+
+
 
 
 
