@@ -8,22 +8,25 @@
 
 #header-content{
     position: relative;
-    color: white;
+    color:white;
     text-align: center;
     top: 70px;
     font-size:45px;
     font-family: Crimson Text;
 }
- 
+#header-content h6{
+    color: white;
+    background: rgba(139, 176, 244);
+}
 body{
-    background-color: rgba(133, 232, 2S55);
+    background-color: white;
     margin:0;
     padding:0; 
 }
 
 p{
     position: relative;
-    text-align: center;
+    text-align: left;
     width: 70%;
     margin: 45px auto;
     font-size:23px;
@@ -36,7 +39,7 @@ p{
     background-color: rgba(139, 176, 244);
     overflow-y: auto;
     left: 0;
-    top: 0;
+    top: -7px;
     text-align: center;
     width: 100%;
     z-index: 10000;
@@ -46,7 +49,7 @@ p{
     user-select: none;
     cursor: default;
     padding: 0;
-    bottom: 0;
+    bottom: 50px;
 }
 
 .navi li{
